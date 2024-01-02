@@ -15,8 +15,8 @@ To perform the whole flow, it is required to have a Xilinx FPGA board with a Vit
 ### Installation
 To install the framework, it is required to clone the repository and to install the python environment.
 ```bash
-git clone git@github.com:minnellf/NN2FPGA.git
-cd NN2FPGA
+git clone git@github.com:minnellf/NN2FPGA-open.git
+cd NN2FPGA-open
 conda env create -f nn2fpga.yml
 conda activate nn2fpga
 ```
