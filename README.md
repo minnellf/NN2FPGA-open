@@ -38,8 +38,3 @@ Supported boards are `ULTRA96v2` and `KRIA KV260`.
 Right now the framework is fully working for classification datasets, but we are extending it to object detection and segmentation.
 
 For more information, please refer to the [paper]() where we implemented Resnet-8 and Resnet-20 for the CIFAR-10 dataset reaching state-of-the-art performance.
-
-# TODO 
-- [ ] Clean the C++ headers from unused functions.
-- [ ] Remove unused Python libraries.
-- [ ] Add support for object detection and segmentation. (On-going)
