@@ -1,6 +1,7 @@
 #! /bin/bash 
-
-mkdir -p $PRJ_ROOT
+if [ ! -d $PRJ_ROOT ]; then
+    mkdir -p $PRJ_ROOT 
+fi
 
 if [ ! -d $PRJ_ROOT/cc/src ]; then 
   mkdir -p $PRJ_ROOT/cc/src
